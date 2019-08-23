@@ -17,7 +17,7 @@ path_samtools=/home/juan/Desktop/juan/bio/sw/samtools-0.1.19
 path_samtools=/home/juan/Desktop/juan/bio/sw/samtools-1.2
 export PATH=$PATH:$path_samtools
 
-file_name=SRR1197126
+file_name=SRR1197127
 mkdir $plots/${file_name}
 ${path_cleaveland}/CleaveLand4.pl -e $path_deg/${file_name}.trimmed.21.fasta -u $path_mirna_fasta -n $transcriptome -t -o $plots/${file_name} > ${out_deg}/${file_name} 2> ${out_deg}/${file_name}.log
 
