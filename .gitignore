@@ -1,0 +1,10 @@
+.DS_Store
+data/
+.ipynb_checkpoints
+.idea
+file_*
+CleaveLand4_Tplotter.R
+SRR*
+*_tmp.txt
+*.fasta
+trash/
