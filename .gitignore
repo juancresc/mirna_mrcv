@@ -8,3 +8,5 @@ SRR*
 *_tmp.txt
 *.fasta
 trash/
+.Rhistory
+sw/

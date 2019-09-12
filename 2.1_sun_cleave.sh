@@ -21,7 +21,7 @@ file_name=SRR1197128
 mkdir $plots/${file_name}
 ${path_cleaveland}/CleaveLand4.pl -e $path_deg/${file_name}.trimmed.21.fasta -u $path_mirna_fasta -n $transcriptome -t -o $plots/${file_name} > ${out_deg}/${file_name} 2> ${out_deg}/${file_name}.log
 
-#for file_name in SRR1197125  SRR1197126 SRR1197127  SRR1197128
+
 #for file_name in SRR1197125 SRR1197126 SRR1197127 SRR1197128
 #do
 #    mkdir $plots/${file_name}
