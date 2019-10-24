@@ -3,18 +3,20 @@
 set -x 
 path_cleaveland=/home/juan/Desktop/juan/bio/mirna_mite/sw/CleaveLand4
 path_deg=/home/juan/Desktop/juan/bio/mirna_mite/data/sun/degradome
-transcriptome=/home/juan/Desktop/juan/bio/mirna_mite/data/fixed.cdna.all.fa
+path_deg=/home/juan/Desktop/juan/bio/mirna_mrcv/data/SUN/degradome
+transcriptome=/home/juan/Desktop/juan/bio/mirna_mrcv/data/fixed.cdna.all.fa
 #RES
-path_mirna_fasta=/home/juan/Desktop/juan/bio/mirna_mrcv/data/mirna.deg.Y.fasta
-plots=/home/juan/Desktop/juan/bio/mirna_mrcv/data/sun_plots
-out_deg=/home/juan/Desktop/juan/bio/mirna_mrcv/data/sun_deg
+path_mirna_fasta=/home/juan/Desktop/juan/bio/mirna_mrcv/data/CT4_SM1.9_BT1.2_V2.4/res/mirna.deg.Y.fasta
+plots=/home/juan/Desktop/juan/bio/mirna_mrcv/data/CT4_SM1.9_BT1.2_V2.4/res/sun_plots
+out_deg=/home/juan/Desktop/juan/bio/mirna_mrcv/data/CT4_SM1.9_BT1.2_V2.4/res/sun_deg
 
 path_gsta=/home/juan/Desktop/juan/bio/mirna_mite/sw/CleaveLand4/GSTAr_v1-0
 export PATH=$PATH:$path_gsta
 path_bowtie=/home/juan/Desktop/juan/bio/sw/bowtie-1.2.2-linux-x86_64
 export PATH=$PATH:$path_bowtie
-path_samtools=/home/juan/Desktop/juan/bio/sw/samtools-0.1.19
-path_samtools=/home/juan/Desktop/juan/bio/sw/samtools-1.2
+#path_samtools=/home/juan/Desktop/juan/bio/sw/samtools-0.1.19
+#path_samtools=/home/juan/Desktop/juan/bio/sw/samtools-1.2
+path_samtools=/home/juan/Desktop/juan/bio/sw/samtools-1.9
 export PATH=$PATH:$path_samtools
 
 file_name=SRR1197128
